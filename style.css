@@ -1,0 +1,138 @@
+html ,body{
+    max-width: 1440px;
+    font-family: Verdana;
+    overflow-x: hidden;
+    margin: 0  auto ;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.header-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;   
+}
+
+.header-top ul li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-top .logo {
+    height: 70px;
+}
+
+.detaille{
+    background-color: #fe142f;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 230px;
+    height: 50px;
+    color: white;
+    font-size: 1.15em;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 0 auto;
+}
+
+.main-text{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0 4%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.title{
+    font-size: 4em;
+}
+.body{
+    width: 35%;
+    font-size: 1.3em;
+}
+
+.btn-a{
+    color: whitesmoke;
+    background-color: #fe142f;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-background-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 0 0px 14px 0;
+    box-shadow:  6px 6px  15px burlywood; 
+}
+
+.image-background{
+    width: 60%  ;
+    height: 100%;
+}
+
+.black-background{
+    width: 40% ;
+    height: 100%;
+    background-color: #232323;
+    border-radius: 12px 0 0 12px;
+    object-fit: cover;
+}
+
+.imageGame1{
+    width: 100% ;
+    height: 100%;
+    border-radius: 0 10px 12px 0;
+    margin-left: 0;
+    padding-left: 0;
+    object-fit: cover;
+    background: linear-gradient(blue, pink);
+}
+
+.footer{
+    margin-top: 50px;
+    margin-left: 3%;
+    color: #fe142f;
+}
+
+
+
