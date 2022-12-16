@@ -9,6 +9,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section id="modale" class="modale-container">
+        <div class="modale-content">
+            <span id="close" class="close-button">&times;</span>
+            <div class="modal">
+                <form id="modale-form" class="modale-form" >
+                    <label class="label-text" for="">nom  <input class="inpuText" type="text"></label> 
+                    <label class="label-text" for="">nom <input class="inpuText" type="text"></label> 
+                    <label class="label-text" for="">prenom <input class="inpuText" type="text"></label> 
+                    <label class="label-text" for="">nom <input class="inpuText" type="text"> </label> 
+                    <label class="label-text" for=""> nom<input class="inpuText" type="text"> </label> 
+                    <label class="label-text" for="">quel tournois et consort </label>
+                    <div class="radio-group">
+                            <label class="label-radio" for=""> 
+                                <input class="imput-radio" name="tournois" checked="checked" type="radio" > 
+                                html you lou
+                            </label>
+                            <label class="label-radio" for=""> 
+                                <input class="imput-radio" name="tournois" type="radio" > 
+                                html 
+                            </label> 
+                            <label class="label-radio" for=""> 
+                                <input class="imput-radio" name="tournois" type="radio" > 
+                                html 
+                            </label> 
+                            <label class="label-radio" for=""> 
+                                <input class="imput-radio" name="tournois" type="radio" > 
+                                html 
+                            </label> 
+                            <label class="label-radio" for=""> 
+                                <input class="imput-radio" name="tournois" type="radio" > 
+                                html
+                            </label> 
+                            <label class="label-radio" for=""> 
+                                <input class="imput-radio" name="tournois" type="radio" > html 
+                            </label>          
+                    </div>
+                    <div class="checkbox-group">
+                        <label for="" class="label-checkbox">
+                            <input type="checkbox" class="input-checkbox" name="" id="">
+                            j'ai lu et j'aprouve les conditions 
+                        </label>
+                    
+                        <label for="" class="label-checkbox">
+                            <input type="checkbox" class="input-checkbox" name="" id="">
+                            je souhaite etre  prevenue des prochain evenement
+                        </label>
+                    </div>
+                    <div class="button-group" >
+                        <button id="btn-b" class="btn-b"> c'est parti </button>
+                    </div>
+                </form>
+                <div class="thanks-modale">
+                    <div class="thanks">
+                        Merci pour votre inscription
+                    </div>
+                    <button id="btn-c" class="btn-b"> fermer </button>
+                </div>
+
+            </div>
+        </div>     
+    </section>
+    
     <div class="container">
         <header>
             <div class="header-container">
@@ -33,7 +95,7 @@
                     <p class="body">
                         vous aimez jouer ? Notre prochain évenement gaming est ouvert aux réservations... Places limitées !
                     </p>
-                    <button class="btn-a" > je M'inscris</button>
+                    <button id="btn-a" class="btn-a" > je M'inscris</button>
                 </div>
     
                 
@@ -51,10 +113,10 @@
             </div>
             
         </main>
-    
         <footer class="footer">
             <span class="copyrigth" > copyrigth 2014 - 2022, GameOn inc</span>
         </footer>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
