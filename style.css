@@ -34,7 +34,7 @@ header{
 .header-top ul li {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 40px;   
+    margin-right: 5px;
 }
 
 .header-top ul li a{
@@ -44,7 +44,7 @@ header{
 }
 
 .header-top .logo {
-    height: 70px;
+    height: 35px;
 }
 
 .detaille{
@@ -182,6 +182,7 @@ main{
    left: 39%;
    border-radius: 7px;
    background-color: #232323;
+   z-index: 1005;
 }
 .modale {
     width: 100%;
@@ -297,9 +298,10 @@ main{
   }
 
   @media (max-width: 768px ) {
-    header{
-        z-index: 10001;
+    main{
+        height: unset;
     }
+   
     .modale-content{
         position: fixed;
         width: 50%;
@@ -342,20 +344,21 @@ main{
         flex-direction: unset;
         justify-content: unset;
         padding:0 ;
-        width: 90%;
+        width: 100%;
         height: 30%;
+        margin-bottom: 10%;
         top: 0;
     }
     .title{
         margin: 0 ;
         padding: 0;
         width: 100%;
-        height: 40%;
-        margin-bottom: 37px;
+        height: 70%;
         font-size: 2.7em;
     }
     .body{
         width: 100%;
+        height: 30%;
         margin: 0;
         font-size: 1.3em;
     }
@@ -372,14 +375,14 @@ main{
         border: none;
         border-radius: 5px;
         font-size: 1.15em;
-        margin: 40px auto;
+        margin: 30px auto;
     }
     .footer{
         margin-top: 15%;
     }
     .copyrigth{
-        width: 50%;
-        margin: 20px auto ;
+        width: 90%;
+        margin: 30px auto ;
         color: #fe142f;
     }
     .second-header-collapse{
