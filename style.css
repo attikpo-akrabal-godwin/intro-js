@@ -148,9 +148,7 @@ main{
     background: linear-gradient(blue, pink);
 }
 
-.footer{
-    
-}
+
 .copyrigth{
     margin-top: 5%;
     margin-left: 3%;
@@ -364,9 +362,7 @@ main{
     .btn-a{
         display: none;
     }
-    btn-e-content{
-        
-    }
+    
     .btn-e{
         display: block;
         color: whitesmoke;

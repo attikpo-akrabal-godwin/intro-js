@@ -9,51 +9,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="modale" class="modale-container">
+    <div id="modale" class="modale-container">
         <div class="modale-content">
             <span id="close" class="close-button">&times;</span>
             <div class="modal">
                 <form id="modale-form" class="modale-form" >
-                    <label class="label-text" for="">nom  <input class="inpuText" type="text"></label> 
-                    <label class="label-text" for="">nom <input class="inpuText" type="text"></label> 
-                    <label class="label-text" for="">prenom <input class="inpuText" type="text"></label> 
-                    <label class="label-text" for="">nom <input class="inpuText" type="text"> </label> 
-                    <label class="label-text" for=""> nom<input class="inpuText" type="text"> </label> 
-                    <label class="label-text" for="">quel tournois et consort </label>
-                    <div class="radio-group">
-                            <label class="label-radio" for=""> 
-                                <input class="imput-radio" name="tournois" checked="checked" type="radio" > 
-                                html you lou
+                    <label class="label-text" for="prenom">Prénom  <input name="prenom" id="prenom" class="inpuText" type="text"></label> 
+                    <label class="label-text" for="nom">Nom <input name="nom" id="nom" class="inpuText" type="text"></label> 
+                    <label class="label-text" for="email">E-mail <input name="email" id="email" class="inpuText" type="email"></label> 
+                    <label class="label-text" for="naissance">Date de naissance  <input name="naissance" id="naissance" class="inpuText" type="Date"> </label> 
+                    <label class="label-text" for="nbr"> A comnbien de tournois GomeOn avez-vous déja participé ? <input name="nbr" id="nbr" class="inpuText" type="number"> </label> 
+                    <label class="label-text" >A quel tournois souhaitez-vous participer cette année ?  </label>
+                    <div class="radio-group" >
+                            <label class="label-radio" for="tournois1"> 
+                                <input class="imput-radio" name="tournois" id="tournois1" checked="checked" type="radio" > 
+                                New York
                             </label>
-                            <label class="label-radio" for=""> 
-                                <input class="imput-radio" name="tournois" type="radio" > 
-                                html 
+                            <label class="label-radio" for="tournois2"> 
+                                <input class="imput-radio" name="tournois" id="tournois2" type="radio" > 
+                                San Francisco
                             </label> 
-                            <label class="label-radio" for=""> 
-                                <input class="imput-radio" name="tournois" type="radio" > 
-                                html 
+                            <label class="label-radio" for="tournois3"> 
+                                <input class="imput-radio" name="tournois" id="tournois3" type="radio" > 
+                                SeaTeal 
                             </label> 
-                            <label class="label-radio" for=""> 
-                                <input class="imput-radio" name="tournois" type="radio" > 
-                                html 
+                            <label class="label-radio" for="tournois4"> 
+                                <input class="imput-radio" name="tournois" id="tournois4" type="radio" > 
+                                Chicago 
                             </label> 
-                            <label class="label-radio" for=""> 
-                                <input class="imput-radio" name="tournois" type="radio" > 
-                                html
+                            <label class="label-radio" for="tournois5"> 
+                                <input class="imput-radio" name="tournois" id="tournois5" type="radio" > 
+                                Ecotan
                             </label> 
-                            <label class="label-radio" for=""> 
-                                <input class="imput-radio" name="tournois" type="radio" > html 
+                            <label class="label-radio" for="tournois6"> 
+                                <input class="imput-radio" name="tournois" id="tournois6" type="radio" > 
+                                Portland 
                             </label>          
                     </div>
                     <div class="checkbox-group">
-                        <label for="" class="label-checkbox">
-                            <input type="checkbox" class="input-checkbox" name="" id="">
+                        <label  class="label-checkbox">
+                            <input type="checkbox" class="input-checkbox"  name="lu" >
                             j'ai lu et j'aprouve les conditions 
                         </label>
                     
-                        <label for="" class="label-checkbox">
-                            <input type="checkbox" class="input-checkbox" name="" id="">
-                            je souhaite etre  prevenue des prochain evenement
+                        <label for="prevenu" class="label-checkbox">
+                            <input type="checkbox" class="input-checkbox" name="prevenu" id="prevenu" >
+                            je souhaite etre  prévenue des prochains evenements
                         </label>
                     </div>
                     <div class="button-group" >
@@ -69,7 +70,7 @@
 
             </div>
         </div>     
-    </section>
+    </div>
     
     <div class="container">
         <header>
