@@ -101,6 +101,7 @@ main{
     border: none;
     border-radius: 5px;
     font-size: 1.15em;
+    cursor: pointer;
 }
 .btn-b{
     color: whitesmoke;
@@ -111,6 +112,7 @@ main{
     border-radius: 5px;
     font-size: 1.15em;
     margin: 0 auto;
+    cursor: pointer;
 }
 .btn-e{
     display: none;
@@ -242,6 +244,7 @@ main{
     display: flex;
     align-items: center;
     height: 15%;
+    cursor: pointer;
     
 }
 
@@ -249,6 +252,7 @@ main{
     color: white;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .imput-radio:checked{
     background-color: red;
@@ -263,6 +267,7 @@ main{
 .imput-checkbox{
     width: 0px;
     height: 0px; 
+    cursor: pointer;
 }
 .checkmark{
     height: 25px;
@@ -372,6 +377,7 @@ main{
     }
     .btn-a{
         display: none;
+        cursor: pointer;
     }
     
     .btn-e{
@@ -384,6 +390,7 @@ main{
         border-radius: 5px;
         font-size: 1.15em;
         margin: 30px auto;
+        cursor: pointer;
     }
     .footer{
         margin-top: 15%;
@@ -420,6 +427,7 @@ main{
     .svg{
         display: block ;
         height: 40px;
+        cursor: pointer;
     }
     
   }

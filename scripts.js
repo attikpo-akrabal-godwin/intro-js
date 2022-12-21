@@ -83,9 +83,9 @@ btnB.addEventListener("click",(e) =>{
     }
 
     if (email) {
-        let rEmail = new RegExp("[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*")
+        
         let emailError = document.getElementById("email-error")
-        if (!rEmail.test(email.value)) {
+        if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g.test(email.value)) {
             emailError.innerHTML="email non valide "
             emailError.classList.add("red")
             isvalid = false
